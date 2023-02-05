@@ -1,0 +1,149 @@
+/* 
+Author: Anish Ghorasaine
+contact:anisgho13@gmail.com
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-center{
+    text-align: center;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.img-responsive{
+    width: 100%;
+}
+.menu-bar{
+    border-bottom: 2px solid gray;
+}
+.menu{
+    line-height: 100px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    text-decoration: none;
+    color: #ff6b81;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+}
+/* Footer CSS */
+.footer{
+    background-color: skyblue;
+    color: #fff;
+    padding: 1%;
+}
+.footer-link{
+    color: #5352ed;
+}
+.footer-link:hover{
+    color: aqua;
+}
+/* Content CSS */
+.content{
+    background-color: #a4b0be;
+    padding: 1% 0;
+}
+.col-4{
+    background-color: white;
+    width: 18%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.heading{
+    color:#ff4757;
+    font-weight: 900;
+}
+.table{
+    width: 100%;
+    margin-top: 5px;
+}
+table tr th{
+    text-align: left;
+    padding: 1%;
+}
+table tr td{
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    margin: 1%;
+}
+.btn{
+ padding: 1%;
+ color: white;
+ font-size: 1rem;
+ border-radius: 5px; 
+ border: none;  
+}
+.btn-primary{
+    background-color: #2ed573;
+}
+.btn-primary:hover{
+    background-color: #7bed9f;
+}
+.btn-secondary{
+    background-color: #1e90ff;
+}
+.btn-secondary:hover{
+    background-color: #70a1ff
+}
+.btn-danger{
+    background-color: #ff4757;
+}
+.btn-danger:hover{
+    background-color: skyblue;
+    color: white;
+}
+.form-control{
+    width: 80%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid #a4b0be;
+}
+.text-right{
+    text-align: right!important;
+}
+.success{
+    color: #2ed573;
+    background-color: white;
+}
+.error{
+    color: #ff4757;
+    background-color: white;
+}
+/*login css*/
+.login{
+    border: 1px solid black;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2% ;
+}
+.form-control-login{
+    width: 50%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid #a4b0be;
+}
