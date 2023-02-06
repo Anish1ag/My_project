@@ -24,7 +24,7 @@
                     <li><a href="categories.php">Categories</a></li>
                     <li><a href="foodmenu.php">Product</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="order.php">Order</a></li>
+                
                 </ul>
             </div>
             <div class="clearfix"></div>

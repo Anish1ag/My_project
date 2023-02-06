@@ -5,7 +5,7 @@
 
     <section class="search text-right">
       <div class="container">
-        <form> 
+        <form method="GET" action="search_result.php"> 
           <input type ="search" name="|search" placeholder="search for food here..." id ="search">
           <input type="button" value="search" class="btn btn-primary ">
         </form>

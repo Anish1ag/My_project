@@ -3,7 +3,7 @@
       <!--contact file -->
       <?php
       //get the id of the product
-      $product_id = $_GET['product_id'];
+      $product_id = $_GET['id'];
       
       
       //sql to get the id of Product
@@ -15,7 +15,7 @@
       //check if executed
       if($execute == TRUE){
         //COUNTING the number of rows
-        $count - mysqli_num_rows($execute);
+        $count = mysqli_num_rows($execute);
 
         //if exactly 1
         if($count == 1){

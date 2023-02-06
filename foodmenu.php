@@ -3,7 +3,7 @@
     <!--Search Bar Begins Here-->
     <section class="search text-center">
         <div class="container">
-            <form>
+            <form method="GET" action="search_result.php">
                 <input type="search" name="search" id="search" placeholder="Search for Food here...">
                 <input type="button" value="Search" class="btn btn-primary">
             </form>
