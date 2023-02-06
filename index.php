@@ -6,8 +6,8 @@
     <section class="search text-right">
       <div class="container">
         <form method="GET" action="search_result.php"> 
-          <input type ="search" name="|search" placeholder="search for food here..." id ="search">
-          <input type="button" value="search" class="btn btn-primary ">
+          <input type ="search" name="query" placeholder="search for food here..." id ="search">
+          <input type="submit" value="search" class="btn btn-primary ">
         </form>
       </div>
     </section>
@@ -38,7 +38,7 @@
                             $category_title = $rows['title'];
                             $category_image = $rows['image_name'];
                             ?>
-                            <a href="#">
+                            <a href="categories.php">
                                 <div class="card float-container">
                                     <img src="image/<?php echo $category_image; ?>" alt="<?php echo$category_title; ?>" class="img-responsive img-rounded">
                                     <h3 class="float-text text-white"><?php echo$category_title; ?></h3>
@@ -90,12 +90,14 @@
                                 <div class="box-img">
                                     <img src="image/<?php echo $pro_image; ?>" alt="<?php echo $pro_title; ?>" class="img-responsive img-rounded">
                                 </div>
+                                <a href="foodmenu.php">
                                 <div class="box-desc">
                                     <h4><?php echo $pro_title; ?></h4>
                                     <p class="item-price">Rs.<?php echo $pro_price; ?></p>
                                     <p class="item-desc"><?php echo $pro_description; ?></p>
                                     <a href="<?php echo APP_URL; ?>order.php?id=<?php echo $pro_id; ?>" class="btn btn-primary">Order Now</a>
                                 </div>
+                                </a>
                             </div>
                             <?php
                         }

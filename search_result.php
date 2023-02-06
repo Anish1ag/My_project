@@ -35,7 +35,7 @@ if($execute == TRUE){
     ?>
     <div class="box">
       <div class="box-img">
-        <img src="images/product/<?php echo $image; ?>" alt="<?php echo $title; ?>" class="img-responsive img-rounded">
+        <img src="image/<?php echo $image; ?>" alt="<?php echo $title; ?>" class="img-responsive img-rounded">
       </div>
       <div class="box-desc">
         <h4><?php echo $title; ?></h4>

@@ -4,8 +4,8 @@
     <section class="search text-center">
         <div class="container">
             <form method="GET" action="search_result.php">
-                <input type="search" name="search" id="search" placeholder="Search for Food here...">
-                <input type="button" value="Search" class="btn btn-primary">
+                <input type="search" name="query" id="search" placeholder="Search for Food here...">
+                <input type="submit" value="Search" class="btn btn-primary">
             </form>
         </div>
     </section>
@@ -36,7 +36,7 @@
                             $category_title = $rows['title'];
                             $category_image = $rows['image_name'];
                             ?>
-                            <a href="#">
+                            <a href="foodmenu.php">
                                 <div class="card float-container">
                                     <img src="image/<?php echo $category_image; ?>" alt="<?php echo$category_title; ?>" class="img-responsive img-rounded">
                                     <h3 class="float-text text-white"><?php echo$category_title; ?></h3>
